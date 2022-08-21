@@ -1,0 +1,1 @@
+@{formatDateTime(convertFromUtc(UtcNow(),'Eastern Standard Time'),'d')}
