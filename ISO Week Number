@@ -1,0 +1,1 @@
+@{div(add(dayofyear(addDays(subtractFromTime(formatdatetime(convertFromUtc(utcNow(), 'Eastern Standard Time'), 'G'), if(equals(dayofweek(formatdatetime(convertFromUtc(utcNow(), 'Eastern Standard Time'), 'G')),0),6,sub(dayofweek(formatdatetime(convertFromUtc(utcNow(), 'Eastern Standard Time'), 'G')),1)), 'Day'),3)),6),7)}
